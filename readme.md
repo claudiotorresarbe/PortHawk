@@ -25,13 +25,13 @@ Não é necessário instalar dependências externas.
 Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/claudiotorresarbe/PortHawk.git
 ```
 
 Entre na pasta do projeto:
 
 ```bash
-cd PortRadar
+cd PortHawk
 ```
 
 Execute o programa com Python 3.
