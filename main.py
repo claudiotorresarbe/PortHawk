@@ -57,7 +57,7 @@ portas = [
 def listen(host,port):
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            s.settimeout(5)
+            s.settimeout(1)
             resultado = s.connect_ex((host, port))
             if resultado == 0:
                 return "aberto"
